@@ -15,4 +15,6 @@ def createDiamondPattern (num):
         print(" " * ((num - j) // 2), end="")
         print("*" * j)
         
-createDiamondPattern(6);
+#  input number
+pattern_num = int(input("Enter the number: "))
+createDiamondPattern(pattern_num);
