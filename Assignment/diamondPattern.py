@@ -1,4 +1,4 @@
-def createDiamondPattern (num):
+def diamondPattern (num):
     
     #  for symmetry odd number is required
     if num % 2 == 0:
@@ -17,4 +17,4 @@ def createDiamondPattern (num):
         
 #  input number
 pattern_num = int(input("Enter the number: "))
-createDiamondPattern(pattern_num);
+diamondPattern(pattern_num)

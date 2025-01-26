@@ -24,7 +24,6 @@ def find_most_frequent_word(file_name):
     else:
         print(f"The file '{file_name}' was not found. Please check the file name and try again.")
 
-
 # input the file name
 file_name = input("Enter the file name (with extension, e.g., 'text.txt'): ")
 find_most_frequent_word(file_name)

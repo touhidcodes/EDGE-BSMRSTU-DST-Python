@@ -9,7 +9,6 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-
 # get fibonacci series
 def generate_fibonacci_series(terms):
     if terms <= 0:
