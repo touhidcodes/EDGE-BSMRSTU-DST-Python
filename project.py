@@ -15,8 +15,9 @@ def getSequences(file_path):
     return sequences
 
 def main():
+    
     file_path = input("Enter the path to your FASTA file: ").strip()
-
+    print(file_path)
     if not os.path.isfile(file_path):
         print("File not found. Please check the file path and try again.")
         return
