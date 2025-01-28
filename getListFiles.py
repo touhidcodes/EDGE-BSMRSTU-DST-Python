@@ -1,3 +1,5 @@
+import os
+
 def main():
         # Get all FASTA files in the current directory
     fasta_files = [file for file in os.listdir() if file.endswith(".fasta")]
@@ -15,6 +17,9 @@ def main():
     if not fasta_files:
         print("No FASTA files found in the current directory. Please add a .fasta file and try again.")
         return
+
+    test= enumerate(fasta_files, 1)
+    print(list(test))
 
     # Display available FASTA files
     print("\nAvailable FASTA files:")
@@ -36,3 +41,5 @@ def main():
     else:
         print("\nInvalid input. Please enter a number corresponding to the file.")
         return
+
+main()
